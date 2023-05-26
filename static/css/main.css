@@ -149,6 +149,7 @@ a:hover {
 .intro {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 100px;
 }
 .main {
@@ -228,6 +229,15 @@ button:focus-visible {
   color: white;
 }
 
+.location {
+  width: 70px;
+}
+
+@media screen and (max-width: 745px) {
+  .position {
+    display: block;
+  }
+}
 @media screen and (max-width: 630px) {
   .main {
     font-size: 50px;
@@ -236,6 +246,9 @@ button:focus-visible {
   .based {
     display: block;
     font-size: 30px;
+  }
+  .location {
+    width: 50px;
   }
 }
 @media screen and (max-width: 342px) {
@@ -252,10 +265,16 @@ button:focus-visible {
     display: block;
     gap: 1rem;
   }
+  .location {
+    width: 40px;
+  }
 }
 @media screen and (max-width: 196px) {
   button {
     font-size: 0.685rem;
+  }
+  .location {
+    width: 30px;
   }
 }
 

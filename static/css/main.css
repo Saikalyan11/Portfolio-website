@@ -150,7 +150,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 .main {
   font-family: Demo_lt;
@@ -171,7 +171,7 @@ a:hover {
   font-size: 50px;
 }
 .buttons {
-  padding: 40px;
+  padding: 75px 35px 35px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,6 +180,10 @@ a:hover {
 
 .hyderabad {
   color: #ff0000;
+}
+
+.name img {
+  width: 84px;
 }
 
 button {
@@ -206,11 +210,6 @@ button {
   touch-action: manipulation;
 }
 
-button:hover {
-  background-color: #000000;
-  color: white;
-}
-
 button:focus {
   outline: 2px solid rgba(0, 0, 0, 0.1);
   outline-offset: 2px;
@@ -232,10 +231,17 @@ button:focus-visible {
 .location {
   width: 70px;
 }
+.Download a {
+  color: #000000;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 745px) {
   .position {
     display: block;
+  }
+  .name img {
+    width: 78px;
   }
 }
 @media screen and (max-width: 630px) {
@@ -249,6 +255,9 @@ button:focus-visible {
   }
   .location {
     width: 50px;
+  }
+  .name img {
+    width: 68px;
   }
 }
 @media screen and (max-width: 342px) {
@@ -268,6 +277,9 @@ button:focus-visible {
   .location {
     width: 40px;
   }
+  .name img {
+    width: 58px;
+  }
 }
 @media screen and (max-width: 196px) {
   button {
@@ -276,6 +288,15 @@ button:focus-visible {
   .location {
     width: 30px;
   }
+  .name img {
+    width: 48px;
+  }
 }
 
 /* ==================================================================================================== */
+
+.heading {
+  font-family: Poppins;
+  font-size: 42px;
+  padding: 165px 0px 0px 159px;
+}

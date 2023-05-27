@@ -237,6 +237,9 @@ button:focus-visible {
 }
 
 @media screen and (max-width: 745px) {
+  .name {
+    padding: 10px;
+  }
   .position {
     display: block;
   }
@@ -251,12 +254,15 @@ button:focus-visible {
   .position,
   .based {
     display: block;
+    padding: 10px;
+
     font-size: 30px;
   }
   .location {
     width: 50px;
   }
   .name img {
+    padding: 10px;
     width: 68px;
   }
 }
@@ -293,10 +299,50 @@ button:focus-visible {
   }
 }
 
-/* ==================================================================================================== */
+/* =====================================================About=============================================== */
 
 .heading {
   font-family: Poppins;
   font-size: 42px;
   padding: 165px 0px 0px 159px;
+}
+.info {
+  padding: 10px 0px 0px 250px;
+  width: 613px;
+  font-family: Poppins;
+}
+
+@media screen and (max-width: 912px) {
+  .heading {
+    padding: 165px 0px 0px 20px;
+  }
+  .info {
+    padding: 10px 0px 0px 40px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 865px) {
+  .heading {
+    padding: 165px 0px 0px 20px;
+  }
+  .info {
+    padding: 10px 0px 0px 40px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .info {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .info {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 286px) {
+  .info {
+    width: 150px;
+  }
 }

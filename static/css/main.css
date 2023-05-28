@@ -1,6 +1,7 @@
 /* ============================================Custom Fonts================================================ */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@400;600;700&family=Source+Sans+Pro:ital,wght@1,300&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 /* 
   font-family: 'Noto Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -302,47 +303,252 @@ button:focus-visible {
 /* =====================================================About=============================================== */
 
 .heading {
-  font-family: Poppins;
+  font-family: "Heebo";
+  font-weight: 600;
   font-size: 42px;
-  padding: 165px 0px 0px 159px;
+  padding: 169px 0px 0px 300px;
 }
 .info {
-  padding: 10px 0px 0px 250px;
-  width: 613px;
-  font-family: Poppins;
+  padding: 0px 223px 0px 0px;
+  width: 610px;
+  font-family: "Heebo";
+  font-size: 20px;
 }
 
-@media screen and (max-width: 912px) {
+.total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.laptop img {
+  width: 540px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+}
+.laptop1 img {
+  width: 600px;
+  padding-bottom: 20px;
+  padding-right: 112px;
+}
+
+.info1 {
+  padding-left: 223px;
+  width: 300px;
+  font-family: "Heebo";
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1558px) {
   .heading {
-    padding: 165px 0px 0px 20px;
+    font-size: 35px;
+    padding: 169px 0px 0px 231px;
   }
   .info {
-    padding: 10px 0px 0px 40px;
-    width: 600px;
+    font-size: 18px;
+  }
+  .laptop img {
+    width: 321px;
+  }
+  .info1 {
+    font-size: 18px;
+  }
+  .laptop1 img {
+    width: 320px;
   }
 }
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 1186px) {
+  .info {
+    font-size: 18px;
+    padding: 0px 58px 0px 0px;
+  }
+  .laptop img {
+    width: 261px;
+  }
+  .info1 {
+    font-size: 18px;
+    padding: 0px 58px 0px 0px;
+  }
+  .laptop1 img {
+    width: 310px;
+  }
+}
+@media screen and (max-width: 932px) {
+  .info {
+    font-size: 18px;
+    padding: 0px 25px 0px 33px;
+  }
+  .laptop img {
+    width: 175px;
+    padding-right: 27px;
+  }
+  .info1 {
+    font-size: 18px;
+    padding: 0px 25px 0px 60px;
+  }
+  .laptop1 img {
+    width: 290px;
+    padding-right: 27px;
+  }
+}
+@media screen and (max-width: 800px) {
   .heading {
-    padding: 165px 0px 0px 20px;
+    font-size: 35px;
+    padding: 169px 0px 0px 311px;
+  }
+  .total {
+    display: block;
   }
   .info {
-    padding: 10px 0px 0px 40px;
-    width: 500px;
+    font-size: 18px;
+    width: 677px;
+    padding: 0px 33px 0px 33px;
+  }
+  .laptop img {
+    width: 274px;
+    padding: 16px 0px 0px 266px;
+  }
+  .total1 {
+    display: block;
+  }
+  .info1 {
+    font-size: 18px;
+    width: 677px;
+    padding: 0px 33px 0px 33px;
+  }
+  .laptop1 img {
+    width: 274px;
+    padding: 16px 0px 0px 266px;
   }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 715px) {
+  .heading {
+    font-size: 23px;
+    padding: 169px 0px 0px 20px;
+  }
+
   .info {
-    width: 350px;
+    width: 580px;
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop img {
+    padding: 16px 20px 0px 39px;
+  }
+  .info1 {
+    width: 580px;
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop1 img {
+    padding: 16px 20px 0px 39px;
   }
 }
-@media screen and (max-width: 376px) {
+
+@media screen and (max-width: 632px) {
   .info {
-    width: 250px;
+    width: 483px;
+  }
+
+  .info1 {
+    width: 483px;
   }
 }
-@media screen and (max-width: 286px) {
+@media screen and (max-width: 534px) {
   .info {
-    width: 150px;
+    width: 400px;
+  }
+
+  .info1 {
+    width: 400px;
   }
 }
+
+@media screen and (max-width: 454px) {
+  .info {
+    font-size: 20px;
+    width: 270px;
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop img {
+    padding: 16px 20px 0px 28px;
+  }
+  .info1 {
+    font-size: 20px;
+
+    width: 270px;
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop1 img {
+    padding: 16px 20px 0px 28px;
+  }
+}
+@media screen and (max-width: 328px) {
+  .info {
+    width: 200px;
+    font-size: 18px;
+
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop img {
+    width: 180px;
+    padding: 16px 20px 0px 28px;
+  }
+  .info1 {
+    font-size: 18px;
+
+    width: 200px;
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop1 img {
+    width: 180px;
+    padding: 16px 20px 0px 28px;
+  }
+}
+@media screen and (max-width: 259px) {
+  .info {
+    font-size: 17px;
+    width: 180px;
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop img {
+    width: 100px;
+    padding: 16px 20px 0px 28px;
+  }
+  .info1 {
+    font-size: 17px;
+    width: 180px;
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop1 img {
+    width: 100px;
+    padding: 16px 20px 0px 28px;
+  }
+}
+@media screen and (max-width: 210px) {
+  .info {
+    font-size: 14px;
+    width: 120px;
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop img {
+    width: 100px;
+    padding: 16px 20px 0px 28px;
+  }
+  .info1 {
+    font-size: 14px;
+    width: 120px;
+    padding: 10px 33px 0px 25px;
+  }
+  .laptop1 img {
+    width: 100px;
+    padding: 16px 20px 0px 28px;
+  }
+}
+
+/* ==========================================Services================================================ */

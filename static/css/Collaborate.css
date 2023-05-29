@@ -1,0 +1,381 @@
+/* ============================================Custom Fonts================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+@font-face {
+  font-family: "Demo_bd";
+  src: url(/static/css/fonts/Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf);
+}
+
+@font-face {
+  font-family: "Arsenica";
+  src: url(/static/css/fonts/ARsenica/ArsenicaTrial-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* =================================================Starts now==================================================== */
+
+.branding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.left {
+  font-family: "Heebo";
+  text-transform: uppercase;
+  padding-left: 100px;
+}
+
+.middle {
+  text-transform: uppercase;
+  font-family: Demo_bd;
+  font-size: 26px;
+}
+.right {
+  font-family: "Heebo";
+  text-transform: uppercase;
+  padding-right: 155px;
+}
+
+/* <!-- ===================================================Title============================================== --> */
+
+.title {
+  padding: 180px 394px 0px 542px;
+  font-size: 80px;
+  font-family: Arsenica;
+  text-transform: uppercase;
+}
+.title a {
+  text-decoration: none;
+  color: black;
+}
+.title a :hover {
+  color: rgb(207, 185, 18);
+}
+
+@media screen and (max-width: 3001px) {
+  .title {
+    padding: 180px 470px 0px 1100px;
+  }
+}
+@media screen and (max-width: 2611px) {
+  .title {
+    padding: 180px 470px 0px 920px;
+  }
+}
+@media screen and (max-width: 2359px) {
+  .title {
+    padding: 180px 470px 0px 800px;
+  }
+}
+@media screen and (max-width: 2225px) {
+  .title {
+    padding: 180px 470px 0px 740px;
+    font-size: 74px;
+  }
+}
+@media screen and (max-width: 2093px) {
+  .title {
+    padding: 180px 470px 0px 712px;
+  }
+}
+@media screen and (max-width: 2005px) {
+  .title {
+    padding: 180px 470px 0px 600px;
+    font-size: 69px;
+  }
+}
+@media screen and (max-width: 1908px) {
+  .title {
+    padding: 180px 470px 0px 706px;
+    font-size: 53px;
+  }
+}
+@media screen and (max-width: 1809px) {
+  .title {
+    padding: 180px 470px 0px 726px;
+    font-size: 43px;
+  }
+}
+@media screen and (max-width: 1710px) {
+  .title {
+    padding: 180px 470px 0px 664px;
+  }
+}
+@media screen and (max-width: 1648px) {
+  .title {
+    padding: 180px 470px 0px 630px;
+  }
+}
+@media screen and (max-width: 1614px) {
+  .title {
+    padding: 180px 470px 0px 593px;
+  }
+}
+@media screen and (max-width: 1591px) {
+  .title {
+    padding: 180px 0px 0px 575px;
+  }
+}
+@media screen and (max-width: 1421px) {
+  .title {
+    padding: 180px 0px 0px 529px;
+  }
+}
+@media screen and (max-width: 1285px) {
+  .title {
+    padding: 180px 0px 0px 469px;
+  }
+}
+@media screen and (max-width: 1139px) {
+  .title {
+    padding: 180px 0px 0px 388px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title {
+    padding: 180px 0px 0px 340px;
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 989px) {
+  .title {
+    padding: 180px 0px 0px 340px;
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 912px) {
+  .title {
+    padding: 180px 0px 0px 300px;
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 869px) {
+  .title {
+    padding: 180px 0px 0px 294px;
+    font-size: 33px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .title {
+    padding: 180px 0px 0px 240px;
+    font-size: 33px;
+  }
+}
+@media screen and (max-width: 733px) {
+  .title {
+    padding: 180px 0px 0px 235px;
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 733px) {
+  .title {
+    padding: 180px 0px 0px 235px;
+    font-size: 27px;
+  }
+  .branding {
+    height: 90px;
+  }
+
+  .left {
+    padding-left: 70px;
+    font-size: 17px;
+  }
+
+  .middle {
+    font-size: 20px;
+  }
+  .right {
+    font-size: 17px;
+    padding-right: 100px;
+  }
+}
+@media screen and (max-width: 589px) {
+  .title {
+    padding: 180px 0px 0px 170px;
+    font-size: 27px;
+  }
+  .branding {
+    height: 90px;
+  }
+
+  .left {
+    padding-left: 70px;
+    font-size: 14px;
+  }
+
+  .middle {
+    font-size: 17px;
+  }
+  .right {
+    font-size: 14px;
+    padding-right: 100px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .title {
+    padding: 180px 0px 0px 138px;
+    font-size: 27px;
+  }
+  .branding {
+    height: 90px;
+  }
+
+  .left {
+    padding-left: 70px;
+    font-size: 14px;
+  }
+
+  .middle {
+    font-size: 17px;
+  }
+  .right {
+    font-size: 14px;
+    padding-right: 100px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .title {
+    padding: 180px 0px 0px 130px;
+    font-size: 20px;
+  }
+  .branding {
+    height: 90px;
+  }
+
+  .left {
+    padding-left: 70px;
+    font-size: 10px;
+  }
+
+  .middle {
+    font-size: 13px;
+  }
+  .right {
+    font-size: 10px;
+    padding-right: 100px;
+  }
+
+  .leftfooter {
+    font-size: 20px;
+  }
+  .rightfooter {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .title {
+    padding: 180px 0px 0px 133px;
+    font-size: 13px;
+  }
+  .branding {
+    height: 50px;
+  }
+
+  .left {
+    padding-left: 27px;
+    font-size: 10px;
+  }
+
+  .middle {
+    font-size: 13px;
+  }
+  .right {
+    font-size: 10px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 347px) {
+  .title {
+    padding: 180px 0px 0px 108px;
+    font-size: 12px;
+  }
+  .branding {
+    height: 50px;
+  }
+
+  .left {
+    padding-left: 27px;
+    font-size: 10px;
+  }
+
+  .middle {
+    font-size: 13px;
+  }
+  .right {
+    font-size: 10px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 385px) {
+  .title {
+    padding: 180px 0px 0px 125px;
+    font-size: 13px;
+  }
+  .branding {
+    height: 30px;
+  }
+
+  .left {
+    padding-left: 17px;
+    font-size: 10px;
+  }
+
+  .middle {
+    font-size: 10px;
+  }
+  .right {
+    font-size: 10px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .title {
+    padding: 180px 0px 0px 70px;
+    font-size: 13px;
+  }
+  .branding {
+    height: 30px;
+  }
+
+  .left {
+    padding-left: 17px;
+    font-size: 10px;
+  }
+
+  .middle {
+    font-size: 10px;
+  }
+  .right {
+    font-size: 10px;
+    padding-right: 20px;
+  }
+}
+
+/* ===================================================Footer================================================= */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 280px 40px 0px 40px;
+}
+
+.leftfooter {
+  font-family: Demo_bd;
+  font-size: 20px;
+}
+.rightfooter {
+  font-size: 20px;
+  font-family: "Heebo";
+}

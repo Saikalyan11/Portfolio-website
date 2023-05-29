@@ -8,9 +8,9 @@ def firstpage():
     return render_template('Index.html')
 
 
-@app.route('/Works')
+@app.route('/Collaborate')
 def nextpage():
-    return render_template('Work.html')
+    return render_template('Collaborate.html')
 
 
 if __name__ == '__main__':

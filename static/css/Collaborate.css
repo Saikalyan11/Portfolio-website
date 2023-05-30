@@ -60,8 +60,17 @@ body {
   text-decoration: none;
   color: black;
 }
-.title a :hover {
+.title :hover {
   color: rgb(207, 185, 18);
+}
+
+.mail {
+  font-family: Heebo;
+  font-size: 25px;
+}
+.mail1 {
+  font-family: Heebo;
+  font-size: 23px;
 }
 
 @media screen and (max-width: 3001px) {
@@ -133,9 +142,9 @@ body {
     padding: 180px 0px 0px 529px;
   }
 }
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1280px) {
   .title {
-    padding: 180px 0px 0px 469px;
+    padding: 180px 0px 0px 434px;
   }
 }
 @media screen and (max-width: 1139px) {
@@ -173,16 +182,17 @@ body {
     font-size: 33px;
   }
 }
+
 @media screen and (max-width: 733px) {
   .title {
     padding: 180px 0px 0px 235px;
     font-size: 27px;
   }
-}
-@media screen and (max-width: 733px) {
-  .title {
-    padding: 180px 0px 0px 235px;
-    font-size: 27px;
+  .mail {
+    font-size: 23px;
+  }
+  .mail1 {
+    font-size: 20px;
   }
   .branding {
     height: 90px;
@@ -209,6 +219,12 @@ body {
   .branding {
     height: 90px;
   }
+  .mail {
+    font-size: 20px;
+  }
+  .mail1 {
+    font-size: 16px;
+  }
 
   .left {
     padding-left: 70px;
@@ -230,6 +246,12 @@ body {
   }
   .branding {
     height: 90px;
+  }
+  .mail {
+    font-size: 16px;
+  }
+  .mail1 {
+    font-size: 14px;
   }
 
   .left {
@@ -340,6 +362,12 @@ body {
     font-size: 10px;
     padding-right: 20px;
   }
+  .mail {
+    font-size: 13px;
+  }
+  .mail1 {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 280px) {
   .title {
@@ -368,7 +396,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 280px 40px 0px 40px;
+  padding: 220px 40px 0px 40px;
 }
 
 .leftfooter {

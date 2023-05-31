@@ -1342,12 +1342,12 @@ footer {
   color: rgb(231, 198, 9);
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   footer {
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
   }
-} */
+}
 @media screen and (max-width: 912px) {
   .contactheader {
     font-weight: bold;

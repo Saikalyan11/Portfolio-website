@@ -4,13 +4,18 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def firstpage():
+def indexpage():
     return render_template('Index.html')
 
 
 @app.route('/Collaborate')
-def nextpage():
+def collaborate():
     return render_template('Collaborate.html')
+
+
+@app.route('/Services')
+def services():
+    return render_template('Services.html')
 
 
 if __name__ == '__main__':

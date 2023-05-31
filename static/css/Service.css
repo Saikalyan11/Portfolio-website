@@ -1,0 +1,170 @@
+/* ============================================Custom Fonts================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap");
+
+@font-face {
+  font-family: "Demo_bd";
+  src: url(/static/css/fonts/Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* =================================================Starts now==================================================== */
+
+header {
+  /* background-color: red; */
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 29px;
+  font-family: Demo_bd;
+  text-transform: uppercase;
+}
+
+.matter {
+  padding: 20px 210px 10px 210px;
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.fullimages1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fullimages2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image1 {
+  padding: 30px 80px 0px 80px;
+  width: 200px;
+}
+.image2 {
+  padding: 30px 0px 0px 0px;
+  width: 200px;
+}
+
+@media screen and (max-width: 1129px) {
+  .matter {
+    padding: 20px 160px 10px 160px;
+    font-size: 16px;
+  }
+
+  .image1 {
+    padding: 30px 60px 0px 60px;
+    width: 200px;
+  }
+  .image2 {
+    padding: 30px 0px 0px 0px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1052px) {
+  .matter {
+    padding: 20px 100px 10px 100px;
+    font-size: 14px;
+  }
+
+  .image1 {
+    padding: 30px 40px 0px 40px;
+    width: 150px;
+  }
+  .image2 {
+    padding: 30px 0px 0px 0px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 744px) {
+  .matter {
+    padding: 20px 80px 10px 80px;
+    font-size: 13px;
+  }
+
+  .image1 {
+    padding: 30px 28px 0px 40px;
+    width: 120px;
+  }
+  .image2 {
+    padding: 30px 0px 0px 0px;
+    width: 120px;
+  }
+}
+@media screen and (max-width: 644px) {
+  .matter {
+    padding: 20px 60px 10px 60px;
+    font-size: 11px;
+  }
+
+  .image1 {
+    padding: 30px 28px 0px 40px;
+    width: 100px;
+  }
+  .image2 {
+    padding: 30px 0px 0px 0px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 524px) {
+  .matter {
+    padding: 20px 40px 10px 40px;
+    font-size: 8px;
+  }
+
+  .image1 {
+    padding: 30px 24px 0px 36px;
+    width: 100px;
+  }
+  .image2 {
+    padding: 30px 0px 0px 0px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 452px) {
+  .matter {
+    padding: 20px 40px 10px 40px;
+    font-size: 8px;
+  }
+
+  .image1 {
+    padding: 30px 24px 0px 26px;
+    width: 80px;
+  }
+
+  .fullimages2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 378px) {
+  .matter {
+    padding: 20px 27px 10px 27px;
+    font-size: 8px;
+  }
+
+  .image1 {
+    padding: 30px 24px 0px 26px;
+    width: 68px;
+  }
+
+  .fullimages1 {
+    display: block;
+  }
+
+  .fullimages2 {
+    display: none;
+  }
+}

@@ -40,10 +40,7 @@ font-family: 'Source Sans Pro', sans-serif; */
   font-family: "Demo_lt";
   src: url(/static/css/fonts/Demo_Fonts/Fontspring-DEMO-theseasons-lt.otf);
 }
-@font-face {
-  font-family: "Demo_ltit";
-  src: url(/static/css/fonts/Demo_Fonts/Fontspring-DEMO-theseasons-ltit.otf);
-}
+
 @font-face {
   font-family: "Demo_reg";
   src: url(/static/css/fonts/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf);
@@ -313,7 +310,7 @@ button:focus-visible {
 .info {
   padding: 0px 223px 0px 0px;
   width: 610px;
-  font-family: "Heebo";
+  font-family: "poppins";
   font-size: 20px;
 }
 
@@ -341,6 +338,7 @@ button:focus-visible {
 }
 
 .info1 {
+  font-family: poppins;
   padding-left: 223px;
   width: 300px;
   font-size: 20px;
@@ -589,7 +587,8 @@ button:focus-visible {
 
 .matterheading {
   padding: 10px 0px 0px 0px;
-  font-family: Poppins;
+  font-family: Demo_reg;
+
   font-weight: 600;
   font-size: 26px;
 }
@@ -600,7 +599,7 @@ button:focus-visible {
 
 .highlights {
   padding-top: 14px;
-  font-family: Poppins;
+  font-family: Arsenica;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 18px;
@@ -610,7 +609,7 @@ button:focus-visible {
 .matter {
   width: 443px;
   padding-top: 30px;
-  font-family: Poppins;
+  font-family: Demo_reg;
   font-size: 14px;
   font-weight: 600;
 }
